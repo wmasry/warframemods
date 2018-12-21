@@ -1,3 +1,4 @@
+
 import sys
 def modpull(a):
     import requests
@@ -23,4 +24,5 @@ def main():
   inputname = sys.argv[1].lower()
   x=modpull(inputname)
   print x
-if __na
+if __name__ == "__main__":
+  main()
